@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import os
-os.getenv('TOKEN')
+os.environ.get('TOKEN')
 
 
 
